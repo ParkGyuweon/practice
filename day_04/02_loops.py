@@ -55,3 +55,5 @@ monthly = 50
 # if랑 같은데 조건이 참인 동안 반복함 
 while loan > 0:
     loan -= monthly    
+    print(f'left: {loan}')
+print('done!')
